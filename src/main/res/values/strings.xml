@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">v2ray</string>
+	<string name="divider_title">0</string>
+	<string name="item1_title">1</string>
+	<string name="item2_title">2</string>
+	<string name="item3_title">3</string>
+	<string name="item4_title">4</string>
+	<string name="item5_title">5</string>
+	<string name="item6_title">6</string>
+</resources>
