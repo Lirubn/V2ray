@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#fafafa"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="20dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:orientation="vertical">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="21sp"
+			android:textColor="@color/text_top"
+			android:layout_gravity="center_vertical"
+			android:text="获取订阅" />
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:orientation="vertical">
+			<TextView
+				android:layout_marginTop="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:layout_gravity="left"
+				android:textSize="14sp"
+				android:textColor="#888888"
+				android:text="注意！" />
+			<TextView
+				android:layout_marginTop="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:textColor="@color/text_top"
+				android:layout_gravity="center_vertical"
+				android:text="当您使用流量时很可能会订阅失败" />
+			<TextView
+				android:layout_marginTop="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:layout_gravity="left"
+				android:textSize="14sp"
+				android:textColor="#888888"
+				android:text="Https/Http：" />
+			<EditText
+				android:id="@+id/input_http1"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:inputType="text"
+				android:selectAllOnFocus="true"
+				android:singleLine="true"
+				android:textColorHint="#95A1AA"/>
+
+			<TextView
+				android:layout_marginTop="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:layout_gravity="left"
+				android:textSize="14sp"
+				android:textColor="#888888"
+				android:text="混淆host：" />
+			<EditText
+				android:id="@+id/input_http2"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:inputType="text"
+				android:selectAllOnFocus="true"
+				android:singleLine="true"
+				android:textColorHint="#95A1AA"/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

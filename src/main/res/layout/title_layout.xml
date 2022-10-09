@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="55dp"
+	android:background="@color/colorPrimaryDark"
+	android:orientation="vertical"
+	android:elevation="10dp"
+	tools:showIn="@color/colorPrimaryDark">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<LinearLayout
+			android:id="@+id/itiem"
+			android:onClick="onClick"
+			android:layout_marginLeft="15dp"
+			android:clickable="true"
+			android:background="?android:selectableItemBackgroundBorderless"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<ImageView
+				android:layout_gravity="center"
+				android:tint="#fafafa"
+				android:layout_width="30dp"
+				android:layout_height="wrap_content"
+				android:src="@drawable/ic_keyboard_backspace_black_48dp"
+				android:gravity="center_vertical"/>
+		</LinearLayout>
+
+		<TextView
+			android:layout_gravity="center_vertical"
+			android:layout_marginLeft="20dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:textColor="#fafafa"
+			android:textSize="18sp"
+			android:text="代理"/>
+	</LinearLayout>
+</RelativeLayout>
