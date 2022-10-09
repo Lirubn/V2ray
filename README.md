@@ -3,7 +3,7 @@
 
 
 ### 展示
-<div align=center><img height="300" width="550" src="https://github.com/Lirubn/SoulGiftAide/blob/main/Main.jpg"/></div>
+<div align=center><img height="300" width="550" src="https://github.com/Lirubn/V2ray/blob/main/Main.jpg"/></div>
 <br>
 
 
